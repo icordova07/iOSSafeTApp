@@ -1,0 +1,62 @@
+{
+    "UserAgent": "aws-22amplify/cli",
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:4dd6cdac-a08d-4a51-8e17-f6e980ccad85",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_ru0NxWLKB",
+            "AppClientId": "73c8f5ul817blo7tkc99m692rs",
+            "AppClientSecret": "1ikco88demk00r9s7d7348nd68fnsq9qre0qg4gtp8pg5svl34c3",
+            "Region": "us-east-1"
+        }
+    }
+}
+{
+    "UserAgent": "MobileHub/1.0",
+    "Version": "1.0",
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:e58ca19b-4a2f-4541-b8b6-5dfbf79191f1",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_6NrE0547P",
+            "AppClientId": "3us06dfsu743nscm87r97ef0ig",
+            "AppClientSecret": "1401qjrk2keu3cr905cttcucga9um1s7p9thm8juncmudac48joo",
+            "Region": "us-east-1"
+        }
+    },
+    "DynamoDBObjectMapper": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "883dc1ba8c3b4db0993f0685829c2f42",
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    }
+}
